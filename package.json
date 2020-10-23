@@ -1,0 +1,54 @@
+{
+    "name": "algosyntax",
+    "author": {
+        "name": "nilsponsard x stephen.ch"
+    },
+    "publisher": "Pierrick Delrieu",
+    "displayName": "Pic Algo",
+    "description": "Coloration syntaxique pour l'algorithmie",
+    "version": "1.0.0",
+    "repository": {
+        "url": "https://github.com/pierrickdelrieu/Extension-Algo-VSC.git"
+    },
+    "engines": {
+        "vscode": "^1.8.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "Pic-Algo",
+                "aliases": [
+                    "algo"
+                ],
+                "extensions": [
+                    ".algo",
+                    ".alg"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "Algorithmie",
+                "scopeName": "source.algo",
+                "path": "./syntaxes/algo-efrei.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "Algorithmie",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "a3773b88-2c53-4e04-8da8-8de65f2d9a72",
+        "publisherDisplayName": "nilsponsard x stephen.ch",
+        "publisherId": "573d7463-a908-4962-a1ce-c496d3c6e849"
+    },
+    "dependencies": {
+    }
+}
