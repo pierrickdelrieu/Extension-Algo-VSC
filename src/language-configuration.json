@@ -27,6 +27,10 @@
             "Début",
             "Fin"
         ],
+        [
+            "/*",
+            "*/"
+        ],
     ],
 
     "indentationRules": {
