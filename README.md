@@ -1,6 +1,6 @@
-# picalgo README
+# pic-algo README
 
-This is the README for your extension "picalgo". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "pic-algo". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
