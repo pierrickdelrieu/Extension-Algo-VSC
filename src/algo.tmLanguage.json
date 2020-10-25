@@ -1,0 +1,95 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "pic-algo",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#expression"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#string"
+		},
+		{
+			"include": "#params"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "comment.line",
+					"match": "//.*$"
+				},
+				{
+					"name": "comment.block",
+					"begin": "\\/\\*",
+					"end": "\\*\\/"
+				},
+				{
+					"name": "keyword.control.pic-algo",
+					"match": "\\b(Si|Sinon Si|Sinon|Fin Si|Fin Tant Que|Fin Pour|Pour|retourner|Tant que|Fin Tant que|Faire|do|while|end while|for|end for|if|else|else if|end if|var)\\b"
+				},
+				{
+					"name": "support.type",
+					"match": "\\b(<-|->)\\b"
+				},
+				{
+					"name": "variable.language",
+					"match": "\\b(Structure|Fin Structure|Algo|Fonction|Variables locales|Données|Début|Fin)\\b"
+				},
+				{
+					"name": "storage.type",
+					"match": "\\b(caractere|char|tableau 1D d'entiers|tableau 2D d'entiers|booleen|entier|entier|reel|LSC|LDC|pile|file|char|mot|réf à)\\b"
+				},
+				{
+					"name": "constant.numeric",
+					"match": "\\b(\\d)\\b"
+				},
+				{
+					"name": "constant.language",
+					"match": "\\b(VRAI|FAUX|TRUE|FALSE|NULL)\\b"
+				},
+				{
+					"name": "keyword.operator",
+					"match": "\\b(=|!=|<|>|<=|>=)\\b"
+				},
+				{
+					"name": "keyword.control",
+					"match": "\\b(OU|ou|ET|et)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.pic-algo",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.pic-algo",
+					"match": "\\\\."
+				}
+			]
+		},
+		"string": {
+			"name": "constant.character",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.pic-algo",
+					"match": "\\\\."
+				}
+			]
+		},
+		"expression": {
+			"name": "support.fonction",
+			"match": "afficher|saisir|taille|retourner|reserver|liberer"
+		}
+	},
+	"scopeName": "source.algo"
+}

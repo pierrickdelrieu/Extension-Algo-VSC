@@ -1,0 +1,115 @@
+{	
+	"Fonction": {
+		"prefix": "Fonction",
+		"body": [
+			"Fonction : ${1:nom}(${2:parametres}) : ${3:typeretour}",
+			"Variables locales : ${1:nom} : ${2:type}",
+			"Données : ${1:nom} : ${2:type}",
+			"Début",
+			"\t$0",
+			"Fin\n"
+		],
+		"description": "Insertion d'un bloc de fonction"
+	},
+
+
+
+
+	"Debut": {
+		"prefix": "Début",
+		"body": [
+			"Début",
+			"\t$0",
+			"Fin\n"
+		],
+		"description": "Insertion d'un bloc Début Fin"
+	},
+
+
+
+
+	"Structure": {
+		"prefix": "Structure",
+		"body": [
+			"Structure: ${1:nom}",
+			"\t$0${1:nom} : ${2:type}",
+			"Fin Structure\n"
+		],
+		"description": "Insertion d'un bloc de structure"
+	},
+
+
+
+
+	"Pour": {
+		"prefix": "Pour",
+		"body": [
+			"Pour (${1:i} allant de ${2:min} à ${3:max}): ",
+			"\t$0",
+			"Fin Pour"
+		],
+		"description": "Insertion d'un bloc de boucle Pour"
+	},
+
+
+
+
+	"Tant que": {
+		"prefix": "Tant que",
+		"body": [
+			"Tant que (${1:condition}):",
+			"\t$0",
+			"Fin Tant que"
+		],
+		"description": "Insertion d'un bloc Tant que"
+	},
+
+
+
+
+	"Faire tant que": {
+		"prefix": "Faire",
+		"body": [
+			"Faire",
+			"\t$0",
+			"Tant que(${1:conditon})"
+		],
+		"description": "Insertion d'un bloc Faire Tant que"
+	},
+	
+
+
+
+	"Si": {
+		"prefix": "Si",
+		"body": [
+			"Si (${1:conditon})",
+			"\t$0",
+			"Fin Si"
+		],
+		"description": "Insertion d'un bloc Si"
+	},
+	
+
+	
+	"Sinon si": {
+		"prefix": "Sinon si",
+		"body": [
+			"Sinon Si (${1:conditon})",
+			"\t",
+			"Fin Si"
+		],
+		"description": "Insertion d'un bloc Sinon si"
+	},
+
+
+	"Sinon": {
+		"prefix": "Sinon",
+		"body": [
+			"Sinon",
+			"\t",
+			"Fin Si"
+		],
+		"description": "Insertion d'un bloc Sinon"
+	}
+}
