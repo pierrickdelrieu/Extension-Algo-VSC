@@ -5,9 +5,9 @@
         "name": "pierrickdelrieu"
     },
 	"description": "Syntactic coloring of algorithmic language",
-	"icon": "./images/icone-algo.png",
+	"icon": "images/icone-algo.png",
 	"version": "1.0.0",
-	"publisher": "Pierrick Delrieu",
+	"publisher": "PierrickDelrieu",
 	"repository": {
         "url": "https://github.com/pierrickdelrieu/Extension-Algo-VSC.git"
     },
