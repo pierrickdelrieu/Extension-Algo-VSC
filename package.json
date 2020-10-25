@@ -5,6 +5,7 @@
         "name": "pierrickdelrieu"
     },
 	"description": "Syntactic coloring of algorithmic language",
+	"icon": "./images/icone-algo.png",
 	"version": "1.0.0",
 	"publisher": "Pierrick Delrieu",
 	"repository": {
@@ -30,10 +31,6 @@
 		"languages": [
             {
                 "id": "Algorithmie",
-                "aliases": [
-                    "Algo",
-                    "Algorithmie"
-                ],
                 "extensions": [
                     ".algo",
                     ".alg"
