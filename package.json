@@ -4,8 +4,8 @@
 	"author": {
         "name": "pierrickdelrieu"
     },
-	"description": "Syntactic coloring of algorithmic language",
-	"icon": "images/icone-algo.png",
+	"description": "Coloration syntaxique du langage algorithmique",
+	"icon": "images/icon-algo.png",
 	"version": "1.0.0",
 	"publisher": "PierrickDelrieu",
 	"repository": {
@@ -18,37 +18,41 @@
 		"Programming Languages"
 	],
 	"activationEvents": [
-		"onCommand:pic-algo.helloWorld"
+		"onCommand:pic-algo.PicAlgo"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "pic-algo.helloWorld",
+				"command": "pic-algo.PicAlgo",
 				"title": "Pic Algo extension"
 			}
 		],
 		"languages": [
             {
-                "id": "Algorithmie",
+				"id": "Algorithmie",
+				"aliases": [
+                    "Algorithmie",
+                    "Pic Algo"
+                ],
                 "extensions": [
                     ".algo",
                     ".alg"
                 ],
-                "configuration": "./src/language-configuration.json"
+                "configuration": "./language-configuration.json"
             }
 		],
 		"grammars": [
             {
                 "language": "Algorithmie",
                 "scopeName": "source.algo",
-                "path": "./src/algo.tmLanguage.json"
+                "path": "./grammars/algo.tmLanguage.json"
             }
         ],
         "snippets": [
             {
 				"language": "Algorithmie",
-                "path": "./src/snippets.json"
+                "path": "./snippets/snippets.json"
             }
         ]
 

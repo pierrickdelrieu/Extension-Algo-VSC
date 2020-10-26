@@ -3,8 +3,8 @@
 		"prefix": "Fonction",
 		"body": [
 			"Fonction : ${1:nom}(${2:parametres}) : ${3:typeretour}",
-			"Variables locales : ${1:nom} : ${2:type}",
-			"Données : ${1:nom} : ${2:type}",
+			"Variables locales : ${1:var} : ${2:type}",
+			"Données : ${1:param} : ${2:type}",
 			"Début",
 			"\t$0",
 			"Fin\n"
@@ -32,7 +32,7 @@
 		"prefix": "Structure",
 		"body": [
 			"Structure: ${1:nom}",
-			"\t$0${1:nom} : ${2:type}",
+			"\t$0${1:var} : ${2:type}",
 			"Fin Structure\n"
 		],
 		"description": "Insertion d'un bloc de structure"
