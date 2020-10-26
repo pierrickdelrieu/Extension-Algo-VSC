@@ -2,15 +2,15 @@
 	"name": "pic-algo",
 	"displayName": "Pic Algo",
 	"author": {
-        "name": "pierrickdelrieu"
-    },
+		"name": "pierrickdelrieu"
+	},
 	"description": "Coloration syntaxique du langage algorithmique",
 	"icon": "images/icon-algo.png",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"publisher": "PierrickDelrieu",
 	"repository": {
-        "url": "https://github.com/pierrickdelrieu/Extension-Algo-VSC.git"
-    },
+		"url": "https://github.com/pierrickdelrieu/Extension-Algo-VSC.git"
+	},
 	"engines": {
 		"vscode": "^1.50.0"
 	},
@@ -18,9 +18,9 @@
 		"Programming Languages"
 	],
 	"activationEvents": [
-        "onCommand:pic-algo.PicAlgo"
-    ],
-    "main": "./out/extension.js",
+		"onCommand:pic-algo.PicAlgo"
+	],
+	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
@@ -29,34 +29,33 @@
 			}
 		],
 		"languages": [
-            {
+			{
 				"id": "Algorithmie",
 				"aliases": [
 					"Algorithmie",
 					"Algo",
-                    "Pic Algo"
-                ],
-                "extensions": [
-                    ".algo",
-                    ".alg"
-                ],
-                "configuration": "./language-configuration.json"
-            }
+					"Pic Algo"
+				],
+				"extensions": [
+					".algo",
+					".alg"
+				],
+				"configuration": "./language-configuration.json"
+			}
 		],
 		"grammars": [
-            {
-                "language": "Algorithmie",
-                "scopeName": "source.algo",
-                "path": "./grammars/algo.tmLanguage.json"
-            }
-        ],
-        "snippets": [
-            {
+			{
 				"language": "Algorithmie",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-
+				"scopeName": "source.algo",
+				"path": "./grammars/algo.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "Algorithmie",
+				"path": "./snippets/snippets.json"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
