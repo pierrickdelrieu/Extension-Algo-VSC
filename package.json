@@ -17,6 +17,10 @@
 	"categories": [
 		"Programming Languages"
 	],
+	"activationEvents": [
+        "onCommand:pic-algo.PicAlgo"
+    ],
+    "main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
