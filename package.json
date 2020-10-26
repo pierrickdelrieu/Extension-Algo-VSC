@@ -6,7 +6,7 @@
     },
 	"description": "Coloration syntaxique du langage algorithmique",
 	"icon": "images/icon-algo.png",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"publisher": "PierrickDelrieu",
 	"repository": {
         "url": "https://github.com/pierrickdelrieu/Extension-Algo-VSC.git"
