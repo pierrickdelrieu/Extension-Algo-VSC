@@ -32,7 +32,7 @@
 				},
 				{
 					"name": "keyword.control.pic-algo",
-					"match": "\\b(Si|Sinon Si|Sinon|Fin Si|Fin Tant Que|Fin Pour|Pour|retourner|Tant que|Fin Tant que|Faire|do|while|end while|for|end for|if|else|else if|end if|var)\\b"
+					"match": "\\b(Si|Sinon Si|Sinon|Fin Si|Fin Tant Que|Fin Pour|Pour|retourner|Tant que|Fin Tant que|Faire)\\b"
 				},
 				{
 					"name": "support.type",

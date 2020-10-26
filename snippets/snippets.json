@@ -3,8 +3,8 @@
 		"prefix": "Fonction",
 		"body": [
 			"Fonction : ${1:nom}(${2:parametres}) : ${3:typeretour}",
-			"Variables locales : ${1:var} : ${2:type}",
-			"Données : ${1:param} : ${2:type}",
+			"Variables locales : ${4:var} : ${5:type}",
+			"Données : ${6:param} : ${5:type}",
 			"Début",
 			"\t$0",
 			"Fin\n"

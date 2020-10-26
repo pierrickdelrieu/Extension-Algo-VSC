@@ -17,10 +17,6 @@
 	"categories": [
 		"Programming Languages"
 	],
-	"activationEvents": [
-		"onCommand:pic-algo.PicAlgo"
-	],
-	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
@@ -32,7 +28,8 @@
             {
 				"id": "Algorithmie",
 				"aliases": [
-                    "Algorithmie",
+					"Algorithmie",
+					"Algo",
                     "Pic Algo"
                 ],
                 "extensions": [
