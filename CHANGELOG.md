@@ -1,6 +1,6 @@
 Tous les changements notables à l'extension "pic-algo" seront documentés dans ce fichier. C'est une note de version.
 
-## v. 1.0.0
+## v. 0.0.1
 *Date de publication* : 26/10/2020.  
 *Description* : Première version de l'extension.
 

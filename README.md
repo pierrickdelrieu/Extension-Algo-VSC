@@ -32,7 +32,7 @@ En cas de bug, n'hesitez pas à me le faire parvenir par mail : pierrick.delrieu
 # Node de version
 cf. Journal de Version.  
 
-**1.0.0** : Première version de l'extension avec initialisation de la langue et des blocs de code.
+**0.0.1** : Première version de l'extension avec initialisation de la langue et des blocs de code.
 
 
 # A propos
