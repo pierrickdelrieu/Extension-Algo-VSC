@@ -6,7 +6,7 @@
 			"Variables locales : ${4:var} : ${5:type}",
 			"Données : ${6:param} : ${5:type}",
 			"Début",
-			"\t$0",
+			"\t",
 			"Fin\n"
 		],
 		"description": "Insertion d'un bloc de fonction"
@@ -20,7 +20,7 @@
 		"body": [
 			"Début",
 			"\t$0",
-			"Fin\n"
+			"Fin"
 		],
 		"description": "Insertion d'un bloc Début Fin"
 	},
@@ -32,8 +32,8 @@
 		"prefix": "Structure",
 		"body": [
 			"Structure: ${1:nom}",
-			"\t$0${1:var} : ${2:type}",
-			"Fin Structure\n"
+			"\t${2:var} : ${3:type}",
+			"Fin Structure"
 		],
 		"description": "Insertion d'un bloc de structure"
 	},
@@ -44,8 +44,8 @@
 	"Pour": {
 		"prefix": "Pour",
 		"body": [
-			"Pour (${1:i} allant de ${2:min} à ${3:max}): ",
-			"\t$0",
+			"Pour (${1:i} allant de ${2:a} à ${3:b})",
+			"\t",
 			"Fin Pour"
 		],
 		"description": "Insertion d'un bloc de boucle Pour"
@@ -57,8 +57,8 @@
 	"Tant que": {
 		"prefix": "Tant que",
 		"body": [
-			"Tant que (${1:condition}):",
-			"\t$0",
+			"Tant que (${1:condition})",
+			"\t",
 			"Fin Tant que"
 		],
 		"description": "Insertion d'un bloc Tant que"
@@ -71,7 +71,7 @@
 		"prefix": "Faire",
 		"body": [
 			"Faire",
-			"\t$0",
+			"\t",
 			"Tant que(${1:conditon})"
 		],
 		"description": "Insertion d'un bloc Faire Tant que"
@@ -84,7 +84,7 @@
 		"prefix": "Si",
 		"body": [
 			"Si (${1:conditon})",
-			"\t$0",
+			"\t",
 			"Fin Si"
 		],
 		"description": "Insertion d'un bloc Si"
@@ -99,7 +99,7 @@
 			"\t",
 			"Fin Si"
 		],
-		"description": "Insertion d'un bloc Sinon si"
+		"description": "Insertion d'un bloc Sinon Si"
 	},
 
 
@@ -107,9 +107,44 @@
 		"prefix": "Sinon",
 		"body": [
 			"Sinon",
-			"\t",
+			"\t$0",
 			"Fin Si"
 		],
 		"description": "Insertion d'un bloc Sinon"
+	},
+
+
+	"saisir": {
+		"prefix":"saisir",
+		"body": ["saisir(${1:type})"],
+		"description": "Fonction saisir renvoie la valeur saisie par l'utilisateur"
+	},
+
+
+	"retourner": {
+		"prefix":"retourner",
+		"body": ["retourner(${1:var})"],
+		"description": "Valeur de retour de la fonction"
+	},
+
+
+	"taille": {
+		"prefix":"taille",
+		"body": ["taille(${1:tab})"],
+		"description": "Fonction taille renvoie la taille d'un tableau 1D"
+	},
+
+
+	"reserver": {
+		"prefix":"reserver",
+		"body": ["reserver(${1:type})"],
+		"description": "Fonction reserver, permet l'allocation dynamique d'une variable"
+	},
+
+
+	"liberer": {
+		"prefix":"liberer",
+		"body": ["liberer(${1:var})"],
+		"description": "Fonction liberer, permet la désallocation dynamique d'une variable"
 	}
 }

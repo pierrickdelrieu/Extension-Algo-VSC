@@ -24,12 +24,16 @@
     // symbols that are auto closed when typing
     "autoClosingPairs": [
         [
-            "Début",
-            "Fin"
+            "(",
+            ")"
         ],
         [
             "/*",
             "*/"
+        ],
+        [
+            "[",
+            "]"
         ],
     ],
 
@@ -45,15 +49,17 @@
             "Début:",
             "Fin"
         ],
-
         [
             "(",
             ")"
         ],
-
         [
             "/*",
             "*/"
+        ],
+        [
+            "[",
+            "]"
         ],
     ],
 
@@ -66,5 +72,5 @@
     },
 
 
-    "autoCloseBefore": "\n\t"
+    "autoCloseBefore": "\n"
 }

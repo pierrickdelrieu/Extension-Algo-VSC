@@ -31,7 +31,7 @@
 					"end": "\\*\\/"
 				},
 				{
-					"name": "keyword.control.pic-algo",
+					"name": "keyword.control",
 					"match": "\\b(Si|Sinon Si|Sinon|Fin Si|Fin Tant Que|Fin Pour|Pour|retourner|Tant que|Fin Tant que|Faire)\\b"
 				},
 				{
@@ -44,7 +44,7 @@
 				},
 				{
 					"name": "storage.type",
-					"match": "\\b(caractere|char|tableau 1D d'entiers|tableau 2D d'entiers|booleen|entier|entier|reel|LSC|LDC|pile|file|char|mot|réf à)\\b"
+					"match": "\\b(caractere|cara|chaine de caracteres|chaine de cara|non signé|signé|tableau 1D|tableau 2D|booleen|entier|entiers|reel|reels|réf à)\\b"
 				},
 				{
 					"name": "constant.numeric",
@@ -52,11 +52,11 @@
 				},
 				{
 					"name": "constant.language",
-					"match": "\\b(VRAI|FAUX|TRUE|FALSE|NULL)\\b"
+					"match": "\\b(VRAI|FAUX|TRUE|FALSE|NULL|break|continue)\\b"
 				},
 				{
 					"name": "keyword.operator",
-					"match": "\\b(=|!=|<|>|<=|>=)\\b"
+					"match": "\\b(=|!|<|>)\\b"
 				},
 				{
 					"name": "keyword.control",
@@ -88,7 +88,7 @@
 		},
 		"expression": {
 			"name": "support.fonction",
-			"match": "afficher|saisir|taille|retourner|reserver|liberer"
+			"match": "afficher|saisir|taille|retourner|reserver|liberer|taille"
 		}
 	},
 	"scopeName": "source.algo"
