@@ -6,8 +6,7 @@ Les fonctionnalités seront activées automatiquement sur n'importe quel fichier
 Pour activer les fonctionnalités sur une autre extension (exemple : .txt ...), Cliquer sur `Texte brut` en bas à droite de la fenetre VSCode et remplacer par `Algorithmie`.
  
 ### **Fiche de syntaxe algorithmique**
-A venir
-
+https://github.com/pierrickdelrieu/Extension-Algo-VSC/blob/master/Syntaxe%20algorithmie%20-%20PicAlgo.pdf
 
 # Installation
 ## Méthode 1
