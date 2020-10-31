@@ -16,6 +16,7 @@ Tous les changements notables à l'extension "pic-algo" seront documentés dans 
 *Description* : ajout et modification de quelques élements de syntaxes et ahout du fiche de syntaxe
 
 ### **Ajoutée**
+- FICHE DE SYNTAXE
 - Retour à la ligne après les snippets
 - Fontion taille pour connaitre la taille du tableau
 - Logo
