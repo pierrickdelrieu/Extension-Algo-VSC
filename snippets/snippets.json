@@ -4,7 +4,7 @@
 		"body": [
 			"Fonction : ${1:nom}(${2:parametres}) : ${3:typeretour}",
 			"Variables locales : ${4:var} : ${5:type}",
-			"Données : ${6:param} : ${5:type}",
+			"Données : ${6:param} : ${7:type}",
 			"Début",
 			"\t",
 			"Fin\n"

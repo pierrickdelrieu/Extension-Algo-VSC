@@ -32,6 +32,8 @@ En cas de bug, n'hesitez pas à me le faire parvenir par mail : pierrick.delrieu
 cf. Journal de Version.  
 
 **0.0.1** : Première version de l'extension avec initialisation de la langue et des blocs de code.
+**0.1.0** : Ajout de la fiche de syntaxe et de snippes + constante.
+**0.1.1** : Ajout d'un logo pour l'extension + mise à jour du Journal de version.
 
 
 # A propos

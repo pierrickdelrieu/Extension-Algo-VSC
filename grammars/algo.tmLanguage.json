@@ -36,7 +36,7 @@
 				},
 				{
 					"name": "support.type",
-					"match": "\\b(<-|->)\\b"
+					"match": "\\b( <- |->)\\b"
 				},
 				{
 					"name": "variable.language",
