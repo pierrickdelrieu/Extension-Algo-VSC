@@ -1,4 +1,6 @@
 # Fonctionnalités 
+![picalgo](https://img.shields.io/visual-studio-marketplace/d/pierrickdelrieu.pic-algo)
+
 Cette extension permet la **coloration syntaxique** du language algorithmique. Elle génére également automatiquement des **blocs de syntaxe** (exemple : strcuture d'une fonction ... cf. : fiche de syntaxe algo).
 
 Les fonctionnalités seront activées automatiquement sur n'importe quel fichier avec l'extension `.algo` ou `.alg`.
