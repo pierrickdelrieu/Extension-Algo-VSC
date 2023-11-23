@@ -40,7 +40,7 @@
 				},
 				{
 					"name": "variable.language",
-					"match": "\\b(Structure|End Structure|Algorithm|Function|Variables|Datas|Begin|End)\\b"
+					"match": "\\b(Structure|End Structure|Algorithm|Function|Constants|Variables|Datas|Begin|End)\\b"
 				},
 				{
 					"name": "storage.type",
