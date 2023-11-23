@@ -15,7 +15,7 @@
 	"Algo": {
 		"prefix": "Algo",
 		"body": [
-			"Algorithm : ${1:name}",
+			"Algorithm ${1:name}",
 			"Variables : \n\t${4:var} : ${5:type}",
 			"Begin",
 			"\t",
