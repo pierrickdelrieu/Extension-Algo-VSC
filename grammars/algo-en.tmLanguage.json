@@ -44,7 +44,7 @@
 				},
 				{
 					"name": "storage.type",
-					"match": "\\b(character|char|string|unsigned|signed|1D array|2d array|bool|integer|integers|real|reals)\\b"
+					"match": "\\b(character|char|string|unsigned|signed|array|1D array|2d array|bool|integer|integers|real|reals)\\b"
 				},
 				{
 					"name": "constant.numeric",
@@ -60,7 +60,7 @@
 				},
 				{
 					"name": "keyword.control",
-					"match": "\\b(OR|or|AND|and)\\b"
+					"match": "\\b(OR|or|AND|and|to)\\b"
 				}
 			]
 		},
@@ -87,7 +87,7 @@
 			]
 		},
 		"expression": {
-			"name": "support.fonction",
+			"name": "support.function",
 			"match": "Write|Read|length|return"
 		}
 	},
