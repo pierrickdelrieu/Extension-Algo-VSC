@@ -44,11 +44,11 @@
 				},
 				{
 					"name": "storage.type",
-					"match": "\\b(character|char|string|unsigned|signed|array|1D array|2d array|bool|integer|integers|real|reals)\\b"
+					"match": "\\b(character|char|string|unsigned|signed|array|1d|2d|1D|2D|array|bool|integer|integers|real|reals)\\b"
 				},
 				{
 					"name": "constant.numeric",
-					"match": "\\b(\\d)\\b"
+					"match": "\\d"
 				},
 				{
 					"name": "constant.language",

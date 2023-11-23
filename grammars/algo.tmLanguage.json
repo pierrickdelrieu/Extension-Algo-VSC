@@ -48,7 +48,7 @@
 				},
 				{
 					"name": "constant.numeric",
-					"match": "\\b(\\d)\\b"
+					"match": "\\d"
 				},
 				{
 					"name": "constant.language",
