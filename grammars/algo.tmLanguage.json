@@ -87,7 +87,7 @@
 			]
 		},
 		"expression": {
-			"name": "support.fonction",
+			"name": "support.function",
 			"match": "afficher|saisir|taille|retourner|reserver|liberer|taille"
 		}
 	},
