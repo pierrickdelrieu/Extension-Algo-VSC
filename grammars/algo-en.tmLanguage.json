@@ -1,0 +1,95 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "pic-algo-en",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#expression"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#string"
+		},
+		{
+			"include": "#params"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "comment.line",
+					"match": "//.*$"
+				},
+				{
+					"name": "comment.block",
+					"begin": "\\/\\*",
+					"end": "\\*\\/"
+				},
+				{
+					"name": "keyword.control",
+					"match": "\\b(If|Else If|Else|End If|End While|End For|For|return|While|Fin While|Do)\\b"
+				},
+				{
+					"name": "support.type",
+					"match": "\\b( <- |->)\\b"
+				},
+				{
+					"name": "variable.language",
+					"match": "\\b(Structure|End Structure|Algorithm|Function|Variables|Datas|Begin|End)\\b"
+				},
+				{
+					"name": "storage.type",
+					"match": "\\b(character|char|string|unsigned|signed|1D array|2d array|bool|integer|integers|real|reals)\\b"
+				},
+				{
+					"name": "constant.numeric",
+					"match": "\\b(\\d)\\b"
+				},
+				{
+					"name": "constant.language",
+					"match": "\\b(True|False|TRUE|FALSE|NULL|break|continue)\\b"
+				},
+				{
+					"name": "keyword.operator",
+					"match": "\\b(=|!|<|>)\\b"
+				},
+				{
+					"name": "keyword.control",
+					"match": "\\b(OR|or|AND|and)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.pic-algo",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.pic-algo",
+					"match": "\\\\."
+				}
+			]
+		},
+		"string": {
+			"name": "constant.character",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.pic-algo",
+					"match": "\\\\."
+				}
+			]
+		},
+		"expression": {
+			"name": "support.fonction",
+			"match": "Write|Read|length|return"
+		}
+	},
+	"scopeName": "source.algo-en"
+}

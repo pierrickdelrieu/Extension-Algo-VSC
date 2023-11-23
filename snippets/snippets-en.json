@@ -1,0 +1,155 @@
+{	
+	"Function": {
+		"prefix": "Function",
+		"body": [
+			"Function : ${1:name}(${2:parameters}) : ${3:return_type}",
+			"Local variables : ${4:var} : ${5:type}",
+			"Datas : ${6:param} : ${7:type}",
+			"Begin",
+			"\t",
+			"End\n"
+		],
+		"description": "Function block insertion"
+	},	
+
+	"Algo": {
+		"prefix": "Algo",
+		"body": [
+			"Algorithm : ${1:name}",
+			"Variables : \n\t${4:var} : ${5:type}",
+			"Begin",
+			"\t",
+			"End\n"
+		],
+		"description": "Algo block insertion"
+	},
+
+
+
+
+	"Begin": {
+		"prefix": "Begin",
+		"body": [
+			"Begin",
+			"\t$0",
+			"End"
+		],
+		"description": "Begin/End block insertion"
+	},
+
+
+
+
+	"Structure": {
+		"prefix": "Structure",
+		"body": [
+			"Structure: ${1:name}",
+			"\t${2:var} : ${3:type}",
+			"End Structure"
+		],
+		"description": "Structure block insertion"
+	},
+
+
+
+
+	"For": {
+		"prefix": "For",
+		"body": [
+			"For (${1:i} <- ${2:a} to ${3:b}) Do",
+			"\t",
+			"End For"
+		],
+		"description": "For block insertion"
+	},
+
+
+
+
+	"While": {
+		"prefix": "While",
+		"body": [
+			"While (${1:condition}) Do",
+			"\t",
+			"End While"
+		],
+		"description": "While block insertion"
+	},
+
+
+
+
+	"Do": {
+		"prefix": "Do",
+		"body": [
+			"Do",
+			"\t",
+			"While (${1:conditon})"
+		],
+		"description": "Do block insertion"
+	},
+	
+
+
+
+	"If": {
+		"prefix": "If",
+		"body": [
+			"If (${1:conditon}) Then",
+			"\t",
+			"End If"
+		],
+		"description": "If block insertion"
+	},
+	
+
+	
+	"Else If": {
+		"prefix": "Else If",
+		"body": [
+			"Else If (${1:conditon}) Then",
+			"\t",
+			"End If"
+		],
+		"description": "Else if block insertion"
+	},
+
+
+	"Else": {
+		"prefix": "Else",
+		"body": [
+			"Else",
+			"\t$0",
+			"End If"
+		],
+		"description": "Else block insertion"
+	},
+
+
+	"Read": {
+		"prefix":"Read",
+		"body": ["Read(${1:type})"],
+		"description": "Read function returns a value entered by the user"
+	},
+
+	"Write": {
+		"prefix":"Write",
+		"body": ["Write(${1:type})"],
+		"description": "Write function displays a value in the user's console"
+	},
+
+
+
+	"return": {
+		"prefix": "return",
+		"body": ["return(${1:var})"],
+		"description": "Function's return value"
+	},
+
+
+	"length": {
+		"prefix": "length",
+		"body": ["length(${1:tab})"],
+		"description": "length function returns the length of a 1D table"
+	}
+}
