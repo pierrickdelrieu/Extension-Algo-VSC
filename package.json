@@ -40,6 +40,19 @@
 					".alg"
 				],
 				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "Algorithmics",
+				"aliases": [
+					"Algorithmic",
+					"Algo-en",
+					"Pic Algo-En"
+				],
+				"extensions": [
+					".algo",
+					".alg"
+				],
+				"configuration": "./language-en-configuration.json"
 			}
 		],
 		"grammars": [
@@ -47,12 +60,21 @@
 				"language": "Algorithmie",
 				"scopeName": "source.algo",
 				"path": "./grammars/algo.tmLanguage.json"
+			},
+			{
+				"language": "Algorithmics",
+				"scopeName": "source.algo-en",
+				"path": "./grammars/algo-en.tmLanguage.json"
 			}
 		],
 		"snippets": [
 			{
 				"language": "Algorithmie",
 				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "Algorithmics",
+				"path": "./snippets/snippets-en.json"
 			}
 		]
 	},
